@@ -1,15 +1,11 @@
-const http = require("http");
 
-const hostname = '127.0.0.1';
+const express = require('express');
+const server = express();
 
-const port = 8000;
-
-const server = http.createServer((req, res) => {
-    res.statusCode = 200;
-    res.setHeader('Content-Type', 'text/plain');
-    res.end("Let's do this!!!!!")
+server.get('/', (req, res) => {
+    res.send("the more i learn about the world, the bigger it seems and the smaller i feel..i can't decide if learning things makes me happy or if knowing things things makes me happy. either way, i would be sad if i knew everything and i would be sad if i knew nothing.")
 })
 
-server.listen(port, hostname, () => {
-    console.log(`Server running at http://${hostname}:${port}/`)
+server.listen(5000, () => {
+    console.log("Server running locally. Yay.")
 });
