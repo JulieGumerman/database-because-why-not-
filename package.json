@@ -1,0 +1,23 @@
+{
+  "name": "database-because",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sanitycheck.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulieGumerman/database-because-why-not-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JulieGumerman/database-because-why-not-/issues"
+  },
+  "homepage": "https://github.com/JulieGumerman/database-because-why-not-#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.20.13"
+  }
+}
