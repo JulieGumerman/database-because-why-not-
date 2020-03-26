@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/JulieGumerman/database-because-why-not-#readme",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "gitignore": "^0.6.0",
     "knex": "^0.20.13",
     "sqlite3": "^4.1.1"
   }
