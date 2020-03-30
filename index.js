@@ -5,7 +5,7 @@ const server = express();
 const cors = require("cors");
 
 const bookRoute = require('./books/book-routes.js')
-const ethosRoute = require('./books/ethos-routes.js')
+const ethosRoute = require('./ethos/ethos-routes.js')
 
 server.use(express.json())
 server.use(cors());
