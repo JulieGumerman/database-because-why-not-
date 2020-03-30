@@ -10,9 +10,9 @@ const ethosRoute = require('./books/ethos-routes.js')
 server.use(express.json())
 server.use(cors());
 
-//finish
+
 server.use("/api/books", bookRoute)
-//finish
+
 server.use("/api/ethos", ethosRoute)
 
 server.get('/', (req, res) => {
