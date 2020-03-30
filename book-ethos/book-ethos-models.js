@@ -1,7 +1,7 @@
 const db = require('../data/dbconfig')
 
 const getBookEthos = () => {
-    return db("book-ethos")
+    return db("books-ethos")
 }
 
 
